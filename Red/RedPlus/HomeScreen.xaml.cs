@@ -30,6 +30,7 @@ namespace RedPlus
         {
             AddPatient ap = new AddPatient();
             ap.Show();
+	    this.Close();
         }
         
     }
